@@ -1,0 +1,59 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+.title {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  text-align: start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 100px 0 0 50px;
+  text-transform: uppercase;
+  font-family: 'Gilroy-Light', sans-serif;
+  position: absolute;
+  z-index: 1;
+}
+
+p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.p2 {
+  margin: 0;
+  font-size: 110px;
+  width: 100%;
+}
+
+span {
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.pink-button {
+  border: 1px solid #ff6a9f;
+  background-color: #ff6a9f;
+  border-radius: 50px;
+  font-size: 30px;
+  text-transform: none;
+  font-weight: 300;
+  height: 75px;
+  width: 270px;
+  position: relative;
+  margin: -110px 0 0 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow {
+  box-shadow: 1px 1px 5px 1px white;
+  margin: 0 10px 0 0;
+  font-size: 45px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+}

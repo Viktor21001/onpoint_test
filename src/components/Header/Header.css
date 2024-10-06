@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0 0 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+}
+.icon {
+  height: 20px;
+  padding: 0 20px 0 0;
+  font-size: 23px;
+}
+.project-title {
+  text-transform: uppercase;
+  border-left: 1px solid black;
+  height: 20px;
+  padding: 0 0 0 20px;
+  font-size: 19px;
+  font-weight: 100;
+  font-family: 'Gilroy-Light', sans-serif;
+}

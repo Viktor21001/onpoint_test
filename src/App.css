@@ -1,0 +1,45 @@
+.App {
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  width: 3072px;
+  height: 100%;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.c-item {
+  width: 1024px;
+  height: 100%;
+}
+
+.home {
+  position: relative;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-page {
+  position: relative;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brend {
+  position: relative;
+  background-color: #d1d1d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,181 @@
+.second-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../images/TextPage/bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.onpoint p {
+  font-size: 15px;
+}
+.onpoint {
+  position: absolute;
+  z-index: 3;
+  width: 90%;
+  bottom: 10px;
+  left: 100px;
+}
+.msg {
+  position: absolute;
+  width: 70%;
+  top: 70px;
+}
+.msg p {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: 'Gilroy-Light', sans-serif;
+}
+.text-container {
+  margin: 0px 0 0 0;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+  border-radius: 40px;
+  width: 65%;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gilroy-Light', sans-serif;
+}
+.text-container p {
+  line-height: 33px;
+  text-align: end;
+}
+.text-div {
+  width: 80%;
+  margin: -20px 100px 0 0;
+}
+.div {
+  padding: 20px 0 20px 20px;
+  width: 110%;
+  height: 320px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.div::-webkit-scrollbar {
+  background: black;
+  width: 20px;
+  border-left: 7px solid white;
+  border-right: 7px solid white;
+}
+
+.div::-webkit-scrollbar-thumb {
+  background: #cf578d;
+  border-radius: 20px;
+  box-shadow: inset 4px 4px 6px rgba(2, 2, 2, 0.5);
+  cursor: grab;
+}
+
+.div.grabbing::-webkit-scrollbar-thumb {
+  cursor: grabbing;
+}
+
+.div::-webkit-scrollbar-track {
+  background-clip: content-box;
+}
+.imgs {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+}
+.layer3_6 {
+  background-image: url('../../images/TextPage/Layer3_6.png');
+  width: 600px;
+  height: 300px;
+  animation: appear 1s linear forwards;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    top: 70px;
+    right: -40px;
+  }
+  100% {
+    opacity: 1;
+    top: 30px;
+    right: 20px;
+  }
+}
+.layer3_2 {
+  background-image: url('../../images/TextPage/Layer3_2.png');
+  width: 400px;
+  height: 200px;
+  animation: appear1 1s linear forwards;
+}
+@keyframes appear1 {
+  0% {
+    opacity: 0;
+    top: 60px;
+    right: -20px;
+  }
+  100% {
+    opacity: 1;
+    top: 30px;
+    right: 20px;
+  }
+}
+.layer3_2_1 {
+  background-image: url('../../images/TextPage/Layer3_2.png');
+  width: 200px;
+  height: 150px;
+  animation: appear2 1s linear forwards;
+}
+@keyframes appear2 {
+  0% {
+    opacity: 0;
+    top: 80px;
+    right: 20px;
+  }
+  100% {
+    opacity: 1;
+    top: 40px;
+    right: 80px;
+  }
+}
+.layer3_2_2 {
+  background-image: url('../../images/TextPage/Layer3_2.png');
+  background-size: 400px !important;
+  width: 150px;
+  height: 200px;
+  animation: appear3 1s linear forwards;
+}
+@keyframes appear3 {
+  0% {
+    opacity: 0;
+    right: -100px;
+    bottom: 150px;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+    bottom: 200px;
+  }
+}
+.layer3_2_3 {
+  background-image: url('../../images/TextPage/Layer3_2.png');
+  width: 150px;
+  height: 150px;
+  animation: appear4 1s linear forwards;
+}
+@keyframes appear4 {
+  0% {
+    opacity: 0;
+    bottom: 50px;
+    right: -100px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 100px;
+    right: 0px;
+  }
+}
